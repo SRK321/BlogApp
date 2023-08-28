@@ -1,0 +1,84 @@
+/* Post.css */
+
+.post {
+    width: calc(33.33% - 20px); /* Calculate width with 3 posts in a row and 20px space between them */
+    margin: 10px; /* Add margin for space between posts */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .post:hover {
+    transform: translateY(-4px);
+  }
+  
+  .postImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .postInfo {
+    padding: 20px;
+  }
+  
+  .postCategories {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .category {
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .post-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f7f7f7;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-link:hover {
+    text-decoration: underline;
+  }
+  
+  .postDate {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .postContent {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 991px) {
+    .post {
+      width: calc(50% - 20px); /* Calculate width with 2 posts in a row and 20px space between them */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .post {
+      width: 100%; /* Single column on smaller screens */
+    }
+  }
+  

@@ -1,0 +1,99 @@
+.sidebar {
+  flex: 3;
+  height: fit-content;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-top: 1px solid #a7a4a4;
+  border-bottom: 1px solid #a7a4a4;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+  color: #222222;
+  font-weight: 600;
+  background-color: #f7f7f7;
+}
+
+.aboutMeImageContainer {
+  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMeImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sidebarItem p {
+  padding: 30px;
+  text-align: center;
+}
+
+.sidebarList {
+  list-style-type: none;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.sidebarListItem {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.sidebarListItem a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #222222;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sidebarListItem a:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.sidebarSocial {
+  margin-top: 15px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarIcon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #222222;
+  transition: color 0.2s ease-in-out;
+}
+
+.sidebarIcon:hover {
+  color: #007bff;
+}

@@ -1,0 +1,106 @@
+/* Topbar.css */
+
+.top {
+    width: 100%;
+    height: 60px;
+    background-color: #1a1a1a;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+  }
+  
+  .topLeft,
+  .topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .topIcon {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .topIcon:hover {
+    color: #fff;
+  }
+  
+  .topCenter {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .topListItem {
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .topListItem:hover {
+    color: #ff9800;
+  }
+  
+  .topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .topSearchIcon {
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .topSearchIcon:hover {
+    color: #fff;
+  }
+  
+  .topSearch {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .topSearchInput {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-left: 5px;
+    width: 180px;
+  }
+  
+  /* Remove link decorations */
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .link:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  
